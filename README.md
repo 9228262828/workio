@@ -1,17 +1,29 @@
-# workio
+# WORKIO GitHub Pages
 
-A new Flutter project.
+App: WORKIO — Office Work Organizer  
+Package: `com.workio.office`  
+Support email: `ecommerceenter455@gmail.com`
 
-## Getting Started
+## Publish on GitHub Pages
 
-This project is a starting point for a Flutter application.
+1. Create a GitHub repository.
+2. Upload this project, keeping the `docs` folder.
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Choose your main branch and the `/docs` folder.
+6. Save and wait for GitHub Pages to publish.
 
-A few resources to get you started if this is your first Flutter project:
+Your Google Play Privacy Policy URL will normally be:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+`https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY/privacy.html`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If your Pages setup uses a repository subpath, GitHub will show the exact public URL in the Pages settings.
+
+Files:
+- `docs/index.html`
+- `docs/privacy.html`
+- `docs/terms.html`
+- `docs/style.css`
+- `docs/.nojekyll`
+
+The Privacy Policy is written for the current offline-first WORKIO build and should be reviewed if the app later adds Firebase, backend services, cloud sync, accounts, ads, analytics, attachments, payments, or new sensitive permissions.
